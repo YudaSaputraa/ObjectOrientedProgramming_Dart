@@ -1,16 +1,16 @@
 void main() {
   //set mirip seperti list, namun datanya gabisa duplikat
-  Set<String> nama = {};
+  Set<String> hewan = {};
 
-  nama.add('Komang');
-  nama.add('Yuda');
-  nama.add('Yuda'); //coba duplikat
-  nama.add('Saputra');
+  hewan.add('Kucing');
+  hewan.add('Ayam');
+  hewan.add('Ayam'); //coba duplikat
+  hewan.add('Burung');
 
-  print(nama);
-  print(nama.length);
+  print(hewan);
+  print(hewan.length);
 
-  nama.remove('Komang');
-  print(nama);
-  print(nama.length);
+  hewan.remove('Burung');
+  print(hewan);
+  print(hewan.length);
 }

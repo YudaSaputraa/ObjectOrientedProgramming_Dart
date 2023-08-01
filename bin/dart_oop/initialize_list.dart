@@ -11,8 +11,9 @@ class Customer {
 }
 
 void main() {
-  var customer = Customer('Komang Yuda');
+  var customer = Customer('Budi Nugraha');
   print(customer.fullName);
   print(customer.firstName);
   print(customer.lastName);
 }
+

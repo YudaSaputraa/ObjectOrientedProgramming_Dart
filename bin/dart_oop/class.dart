@@ -16,19 +16,13 @@ class Person {
 
 void main() {
   var person1 = Person();
-  print(person1.name); // sebelum data diubah
-  print(person1.address);
-  print(person1.country);
+  person1.name = 'Budi';
+  person1.address = 'Yogyakarta';
+  
+  person1.sayHello('Joko');
 
-  person1.name = 'Komang';
-  person1.address = 'Bali';
-  // person1.country = 'Singapore'; // ini error karena country itu final
-  print('\n');
-  print(person1.name); // sesudah data diubah
-  print(person1.address);
-  print(person1.country);
 
-  person1.sayHello('Bella');
+
   person1.hello();
   person1.getName();
 

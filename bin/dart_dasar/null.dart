@@ -3,5 +3,5 @@ void main() {
   int? number2; //tanda ? artinya variable boleh null (kosong) atau nullable
 
   //print(number1);//error karena tidak nullable
-  print(number2);//boleh null karena nullable
+  print(number2); //boleh null karena nullable
 }

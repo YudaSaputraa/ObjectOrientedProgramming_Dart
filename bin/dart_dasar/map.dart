@@ -4,7 +4,7 @@ void main() {
 //add data
   product['A01'] = 'Pensil';
   product['A02'] = 'Buku Gambar';
-  product['A03'] = 'Motor CBR';
+  product['A03'] = 'Penghapus';
 
   print(product);
 
